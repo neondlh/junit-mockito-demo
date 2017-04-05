@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jUnit and Mockito</title>
+</head>
+<body>
+	<h2>Unit Testing (TestAdder)</h2>
+	<hr/>
+	<h3>Definition</h3>
+	<ul>
+		<li>Unit testing is a software testing method by which individual units of source code are tested to determine whether they are fit for use.</li>
+		<li>In object-oriented programming, a unit is often an entire interface, such as a class, but could be an individual method.</li>
+		<li>Ideally, each test case is independent from the others.</li>
+		<li>A unit test should usually not go outside of its own class boundary. Crossing such unit boundaries turns unit tests into integration tests</li>
+	</ul>
+	<h3>Advantages</h3>
+	<ul>
+		<li>Find problems early.</li>
+		<li>Facilitates change</li>
+		<li>Simplifies integration</li>
+		<li>Documentation</li>
+		<li>Design</li>
+	</ul>
+	<h3>Disadvantages</h3>
+	<ul>
+		<li>Decision problem</li>
+		<li>Not integration testing</li>
+		<li>Combinatorial problem</li>
+		<li>Realism</li>
+		<li>Record keeping</li>
+		<li>Sustainability challenges</li>
+		<li>Platform differences</li>
+		<li>External work</li>
+	</ul>
+	<h2>Junit (FoobarTest)</h2>
+	<hr/>
+	<h3>Definition</h3>
+	<ul>
+		<li>JUnit is a unit testing framework for the Java programming language.</li>
+	</ul>
+	<h2>Mockito</h2>
+	<hr/>
+	<h3>Definition</h3>
+	<ul>
+		<li>Mockito is an open source testing framework for Java</li>
+		<li>The framework allows the creation of test double objects (mock objects)</li>
+	</ul>
+	<h4>Mock (TestAdderServiceImpl)</h4>
+	<ul>
+		<li>A mock in mockito is a normal mock in other mocking frameworks (allows you to stub incovations = return specific values out of method calls)</li>
+	</ul>
+	<h4>Spy (TestAdderServiceImplSpy)</h4>
+	<ul>
+		<li>A spy in mockito is a partial mock in other mocking frameworks (part of the object will be mocked and part will use real method invocations).</li>
+	</ul>
+</html>
